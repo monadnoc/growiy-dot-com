@@ -29,19 +29,16 @@ intro:
     production, roasting and brewing seriously and we’re glad to pass that
     knowledge to anyone. This is an edit via identity...
 main:
-  heading: Great coffee with no compromises
+  heading: Growing cannabis with no compromises
   description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
+    We provide personalized consulting for each home grower to make sure the conditions are optimal for the plants and farmers.
   image1:
-    alt: Growiy provides you diagnose your cannabis plant
-    image: /img/products-grid3.jpg
+    alt: Growiy lets you diagnose your cannabis plant
+    image: /img/weed-help.png
   image2:
     alt: Growiy helps you plan and organize your cannabis grow.
-    image: /img/products-grid2.jpg
+    image: /img/weed-app.png
   image3:
-    alt: Growiy relies on its community to support each other.
-    image: /img/products-grid1.jpg
+    alt: Growiy fosters a community that grows together and supports each other.
+    image: /img/grow-community.png
 ---

@@ -39,8 +39,7 @@ export default class Index extends React.Component {
         <section className="section">
           <div className="container">
             <div className="content">
-              <h1>Give feedback</h1>
-              <h2>What problems do you have growing cannabis right now, or what was the biggest problem you had to solve?</h2>
+              <h1>We want to hear from you!</h1>
               <form
                 name="contact"
                 method="post"
@@ -89,7 +88,7 @@ export default class Index extends React.Component {
                 </div>
                 <div className="field">
                   <label className="label" htmlFor={'message'}>
-                    Message
+                      What problems do you have growing cannabis right now, or what is the biggest problem you've had to solve to grow cannabis successfully?
                   </label>
                   <div className="control">
                     <textarea

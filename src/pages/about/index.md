@@ -1,19 +1,19 @@
 ---
 templateKey: 'about-page'
 path: /about
-title: About our values
+title: About us
 ---
-### Shade-grown coffee
-Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
+### Consulting Team
+#### Sam Rifkin, Organic Grow Consultant
+Samuel Rifkin has 15 years of growing experience in California's medical cannabis system and Oregon's legal cannabis system. He holds a degree in Corporate Finance, founded Compassionate Care Collective under California's Compassionate Use Act and MAUCRSA, and specializes in organic cannabis growing.
+#### Sam Bethel, Home Grow Consultant
+Sam Bethel started growing cannabis legally in Massachusetts as soon as it was permitted through referendum. He specializes in low-cost and limited-space home grows, and runs his own cannabis consultancy <a style="color:green" href="https://www.bostonhomegrows.com">Boston Home Grows</a>.  
+#### Jordan Nelson, Hardware Consultant
+Jordan Nelson is a PhD Candidate at Northwestern researching molecules that model photosynthesis. He is an expert in lighting sources and environment sensors.
 
-### Single origin
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
-
-### Sustainable farming
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
-
-### Direct sourcing
-Direct trade is a form of sourcing practiced by some coffee roasters. Advocates of direct trade practices promote direct communication and price negotiation between buyer and farmer, along with systems that encourage and incentivize quality.
-
-### Reinvest profits
-We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.
+### Business and Development Team
+#### Elaine Ramirez, Media
+#### Shuying Zhang, Marketing
+#### Corinne Burger, Development
+#### Kylie Chesner, Development
+#### Sumin You, Development
