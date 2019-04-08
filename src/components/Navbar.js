@@ -42,7 +42,7 @@ const Navbar = class extends React.Component {
         <div className="container">
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="Kaldi" style={{ width: "88px" }} />
+              <img src={logo} alt="Growiy" style={{ width: "88px" }} />
             </Link>
             {/* Hamburger menu */}
             <div
@@ -60,8 +60,13 @@ const Navbar = class extends React.Component {
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
             <div className="navbar-start has-text-centered">
-              <Link className="navbar-item" to="/contact">
-                Contact
+              <Link className="navbar-item" to="/about">
+                Team
+              </Link>
+            </div>
+            <div className="navbar-start has-text-centered">
+              <Link className="navbar-item" to="/consult/free-help-growing-cannabis">
+                What's wrong with my grow?
               </Link>
             </div>
           </div>
