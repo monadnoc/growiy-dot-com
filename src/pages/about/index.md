@@ -18,6 +18,5 @@ Jordan Nelson is a PhD Candidate at Northwestern researching molecules that mode
 
 ### Business and Development Team
 #### Elaine Ramirez, Media
-#### Shuying Zhang, Marketing
 #### Corinne Burger, Development
 #### Kylie Chesner, Development
