@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
-
+import ReactModal from 'react-modal'
 import Layout from '../components/Layout'
 import Features from '../components/Features'
+import './index-page.css'
 
 export const IndexPageTemplate = ({
   image,
@@ -38,9 +39,8 @@ export const IndexPageTemplate = ({
         <h1
           className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
           style={{
-            boxShadow:
-              'rgb(50, 193, 37) 0.5rem 0px 0px, rgb(50, 193, 37) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(50, 193, 37)',
+            // boxShadow:'rgb(50, 193, 37) 0.5rem 0px 0px, rgb(50, 193, 37) -0.5rem 0px 0px',
+            // backgroundColor: 'rgb(50, 193, 37)',
             color: 'white',
             lineHeight: '1',
             padding: '0.25em',
@@ -51,9 +51,8 @@ export const IndexPageTemplate = ({
         <h3
           className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
           style={{
-            boxShadow:
-              'rgb(50, 193, 37) 0.5rem 0px 0px, rgb(50, 193, 37) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(50, 193, 37)',
+            // boxShadow: 'rgb(50, 193, 37) 0.5rem 0px 0px, rgb(50, 193, 37) -0.5rem 0px 0px',
+            // backgroundColor: 'rgb(50, 193, 37)',
             color: 'white',
             lineHeight: '1',
             padding: '0.25em',
@@ -88,8 +87,8 @@ export const IndexPageTemplate = ({
                 <Features gridItems={intro.blurbs} />
                 <div className="columns">
                   <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/consult/free-help-growing-cannabis">
-                      Personalized help
+                    <Link className="btn" to="/contact">
+                      Give feedback
                     </Link>
                   </div>
                 </div>
@@ -114,22 +113,55 @@ IndexPageTemplate.propTypes = {
   }),
 }
 
-const IndexPage = ({ data }) => {
-  const { frontmatter } = data.markdownRemark
+class IndexPage extends Component {
 
-  return (
-    <Layout>
-      <IndexPageTemplate
-        image={frontmatter.image}
-        title={frontmatter.title}
-        heading={frontmatter.heading}
-        subheading={frontmatter.subheading}
-        mainpitch={frontmatter.mainpitch}
-        description={frontmatter.description}
-        intro={frontmatter.intro}
-      />
-    </Layout>
-  )
+  constructor(props) {
+    super(props)
+    this.state = {
+      isModalOpen: true
+    }
+  }
+
+  handleModalOpen = event => {
+    // console.log('handleModalOpen: ', event);
+    this.setState({ isModalOpen: true })
+  }
+
+  handleModalClose = event => {
+    // console.log('handleModalOpen: ', event);
+    this.setState({ isModalOpen: false })
+  }
+
+  render() {
+    const { data } = this.props;
+    const frontmatter = data.markdownRemark.frontmatter;
+    console.log(frontmatter);
+
+    return (
+      <Layout>
+        <IndexPageTemplate
+          image={frontmatter.image}
+          title={frontmatter.title}
+          heading={frontmatter.heading}
+          subheading={frontmatter.subheading}
+          mainpitch={frontmatter.mainpitch}
+          description={frontmatter.description}
+          intro={frontmatter.intro}
+        />
+        <ReactModal
+          isOpen={this.state.isModalOpen}
+          onRequestClose={this.handleModalClose}
+          contentLabel="Example Modal In Gatsby"
+        >
+            <div className="age-prompt">How old are you?</div>
+            <div className="modal-buttons">
+              <button className="btn btn-modal" onClick={this.handleModalClose}>21+</button>
+              <button className="btn btn-modal" onClick={()=> window.open("https://www.google.com", "_self")}>Under 21</button>
+            </div>
+        </ReactModal>
+      </Layout>
+    )
+  }
 }
 
 IndexPage.propTypes = {
@@ -140,7 +172,7 @@ IndexPage.propTypes = {
   }),
 }
 
-export default IndexPage
+export default IndexPage;
 
 export const pageQuery = graphql`
   query IndexPageTemplate {

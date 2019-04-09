@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Grow It Yourself
-image: /img/home-jumbotron.jpg
+image: /img/dark-weed.png
 heading: Grow It Yourself
 subheading: Supporting DIY cannabis growers
 mainpitch:

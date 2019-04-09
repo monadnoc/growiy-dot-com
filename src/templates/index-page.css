@@ -1,0 +1,17 @@
+.btn:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.modal-buttons {
+    text-align: center;
+}
+
+.btn-modal {
+    margin: 5px;
+}
+
+.age-prompt {
+    text-align: center;
+    font-size: 30px;
+}
