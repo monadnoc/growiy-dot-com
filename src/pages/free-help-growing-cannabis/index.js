@@ -45,8 +45,10 @@ export default class Contact extends React.Component {
     return (
       <Layout>
         <Helmet>
-          <title>Growiy—Free Consulting for Cannabis</title>
+          <title>Growiy—Free Consult</title>
           <meta property="og:image" content="/img/og-consult.png" />
+          <meta property="og:title" content="Growiy—Grow It Yourself" />
+          <meta name="og:description" content="Get free help from experts with your home grow"/>
         </Helmet>
         <section className="section">
           <div className="container">

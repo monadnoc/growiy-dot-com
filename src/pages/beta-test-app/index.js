@@ -38,8 +38,10 @@ export default class Index extends React.Component {
     return (
       <Layout>
         <Helmet>
-          <title>Growiy—App Beta Test</title>
+          <title>Growiy—Beta Test App</title>
           <meta property="og:image" content="/img/og-beta.png" />
+          <meta property="og:title" content="Growiy—Grow It Yourself" />
+          <meta name="og:description" content="Beta test our app that assists you with your home grow"/>
         </Helmet>
         <section className="section">
           <div className="container">
