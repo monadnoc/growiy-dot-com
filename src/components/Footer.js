@@ -5,7 +5,7 @@ import logo from '../img/logo.svg'
 import facebook from '../img/social/facebook.svg'
 import instagram from '../img/social/instagram.svg'
 import twitter from '../img/social/twitter.svg'
-import vimeo from '../img/social/vimeo.svg'
+//import vimeo from '../img/social/vimeo.svg'
 
 const Footer = class extends React.Component {
   render() {
@@ -30,29 +30,19 @@ const Footer = class extends React.Component {
                       </Link>
                     </li>
                     <li>
-                      <Link className="navbar-item" to="/contact">
-                        Feedback
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="navbar-item" to="/consult/free-help-growing-cannabis">
-                        Consult
-                      </Link>
-                    </li>
-                    <li>
                       <Link className="navbar-item" to="/about">
                         Team
                       </Link>
                     </li>
                     <li>
-                      <a
-                        className="navbar-item"
-                        href="/admin/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        Admin
-                      </a>
+                      <Link className="navbar-item" to="/beta-test-app">
+                        Early Access
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="navbar-item" to="/free-help-growing-cannabis">
+                        Expert Help
+                      </Link>
                     </li>
                   </ul>
                 </section>
@@ -70,6 +60,14 @@ const Footer = class extends React.Component {
                     className="fas fa-lg"
                     src={twitter}
                     alt="Twitter"
+                    style={{ width: '1em', height: '1em' }}
+                  />
+                </a>
+                <a title="instagram" href="https://www.instagram.com/growiy/">
+                  <img
+                    className="fas fa-lg"
+                    src={instagram}
+                    alt="Instagram"
                     style={{ width: '1em', height: '1em' }}
                   />
                 </a>
