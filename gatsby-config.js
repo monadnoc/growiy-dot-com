@@ -19,6 +19,12 @@ module.exports = {
       },
     },
     {
+      resolve: 'gatsby-plugin-mailchimp',
+      options: {
+        endpoint: 'https://gmail.us20.list-manage.com/subscribe/post?u=03f1d1b34b49bca57f71a17d3&amp;id=edb113df64" method="post', // see instructions section below
+      },
+    },
+    {
       resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/src/pages`,

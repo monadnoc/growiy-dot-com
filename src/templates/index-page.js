@@ -4,7 +4,6 @@ import { Link, graphql } from 'gatsby'
 import ReactModal from 'react-modal'
 import Layout from '../components/Layout'
 import Features from '../components/Features'
-import './index-page.css'
 
 export const IndexPageTemplate = ({
   image,
@@ -88,7 +87,7 @@ export const IndexPageTemplate = ({
                 <div className="columns">
                   <div className="column is-12 has-text-centered">
                     <Link className="btn" to="/contact">
-                      Give feedback
+                      Get grow help!
                     </Link>
                   </div>
                 </div>
@@ -151,10 +150,15 @@ class IndexPage extends Component {
         <ReactModal
           isOpen={this.state.isModalOpen}
           onRequestClose={this.handleModalClose}
-          contentLabel="Example Modal In Gatsby"
+          contentLabel="21+ Modal"
         >
-            <div className="age-prompt">How old are you?</div>
-            <div className="modal-buttons">
+            <div
+              className="modal-buttons has-text-weight-bold is-size-1"
+              style={{
+                padding: '2rem'
+              }}
+            >
+              <h1>What's your age?</h1>
               <button className="btn btn-modal" onClick={this.handleModalClose}>21+</button>
               <button className="btn btn-modal" onClick={()=> window.open("https://www.google.com", "_self")}>Under 21</button>
             </div>

@@ -1,6 +1,7 @@
 import React from 'react'
 import { navigate } from 'gatsby-link'
 import Layout from '../../components/Layout'
+import Helmet from 'react-helmet'
 
 function encode(data) {
   const formData = new FormData()
@@ -43,6 +44,10 @@ export default class Contact extends React.Component {
   render() {
     return (
       <Layout>
+        <Helmet>
+          <title>Growiy—Free Consulting for Cannabis</title>
+          <meta property="og:image" content="/img/og-consult.png" />
+        </Helmet>
         <section className="section">
           <div className="container">
             <div className="content">
@@ -63,21 +68,6 @@ export default class Contact extends React.Component {
                     Don’t fill this out:{' '}
                     <input name="bot-field" onChange={this.handleChange} />
                   </label>
-                </div>
-                <div className="field">
-                  <label className="label" htmlFor={'name'}>
-                    Your name
-                  </label>
-                  <div className="control">
-                    <input
-                      className="input"
-                      type={'text'}
-                      name={'name'}
-                      onChange={this.handleChange}
-                      id={'name'}
-                      required={true}
-                    />
-                  </div>
                 </div>
                 <div className="field">
                   <label className="label" htmlFor={'email'}>
@@ -123,29 +113,6 @@ export default class Contact extends React.Component {
                       id={'strain'}
                       required={true}
                     />
-                  </div>
-                </div>
-                <div className="field">
-                  <label className="label" htmlFor={'gain'}>
-                    Would you pay for someone to solve this problem for you?<br></br>
-                  </label>
-                  <div className="control">
-                    <input
-                      type='checkbox'
-                      name='Y'
-                      onChange={this.handleChange}
-                      id={'gain'}
-                      required={true}
-                    />
-                    Yes <br></br>
-                    <input
-                      type='checkbox'
-                      name='N'
-                      onChange={this.handleChange}
-                      id={'gain'}
-                      required={true}
-                    />
-                    No <br></br>
                   </div>
                 </div>
                 <div className="field">

@@ -1,6 +1,7 @@
 import React from 'react'
 import { navigate } from 'gatsby-link'
 import Layout from '../../components/Layout'
+import Helmet from 'react-helmet'
 
 function encode(data) {
   return Object.keys(data)
@@ -36,10 +37,14 @@ export default class Index extends React.Component {
   render() {
     return (
       <Layout>
+        <Helmet>
+          <title>Growiy—App Beta Test</title>
+          <meta property="og:image" content="/img/og-beta.png" />
+        </Helmet>
         <section className="section">
           <div className="container">
             <div className="content">
-              <h1>We want to hear from you!</h1>
+              <h1>Sign up to be the first to test our app!</h1>
               <form
                 name="contact"
                 method="post"
@@ -55,21 +60,6 @@ export default class Index extends React.Component {
                     Don’t fill this out:{' '}
                     <input name="bot-field" onChange={this.handleChange} />
                   </label>
-                </div>
-                <div className="field">
-                  <label className="label" htmlFor={'name'}>
-                    Your name
-                  </label>
-                  <div className="control">
-                    <input
-                      className="input"
-                      type={'text'}
-                      name={'name'}
-                      onChange={this.handleChange}
-                      id={'name'}
-                      required={true}
-                    />
-                  </div>
                 </div>
                 <div className="field">
                   <label className="label" htmlFor={'email'}>
@@ -88,7 +78,9 @@ export default class Index extends React.Component {
                 </div>
                 <div className="field">
                   <label className="label" htmlFor={'message'}>
-                      What problems do you have growing cannabis right now, or what is the biggest problem you've had to solve to grow cannabis successfully?
+                      We're adding core features to make it easy to keep track of your grow, to get help from our consultants, or (if you are already an expert cannabis gardener) to consult locally for others.<br></br>
+                      <br></br>
+                      If you want: What features are you looking for in our app, consulting, or automated hardware to help you grow cannabis?
                   </label>
                   <div className="control">
                     <textarea
@@ -96,7 +88,7 @@ export default class Index extends React.Component {
                       name={'message'}
                       onChange={this.handleChange}
                       id={'message'}
-                      required={true}
+                      required={false}
                     />
                   </div>
                 </div>
