@@ -132,7 +132,14 @@ export default class Contact extends React.Component {
                     </label>
                   </div>
                 </div>
+                <div className="tos">
+                  <span className="consent_txt">
+                    By submitting this form, you consent to the use of your anonymized data for Growiy's content development.
+                    <br></br>
+                  </span>
+                </div>
                 <div className="field">
+                <br></br>
                   <button className="button is-link" type="submit"
                   style={{
                     backgroundColor: '#32C125',
