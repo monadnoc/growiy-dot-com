@@ -147,22 +147,6 @@ class IndexPage extends Component {
           description={frontmatter.description}
           intro={frontmatter.intro}
         />
-        <ReactModal
-          isOpen={this.state.isModalOpen}
-          onRequestClose={this.handleModalClose}
-          contentLabel="21+ Modal"
-        >
-            <div
-              className="modal-buttons has-text-weight-bold is-size-1"
-              style={{
-                padding: '2rem'
-              }}
-            >
-              <h1>What's your age?</h1>
-              <button className="btn btn-modal" onClick={this.handleModalClose}>21+</button>
-              <button className="btn btn-modal" onClick={()=> window.open("https://www.google.com", "_self")}>Under 21</button>
-            </div>
-        </ReactModal>
       </Layout>
     )
   }
