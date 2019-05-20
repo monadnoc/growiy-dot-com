@@ -31,7 +31,7 @@ Please advise,<br>
 ## If you build out the base, the top will come
 Hi *DMMAW-WW*,
 
-**Our suggested action**: transplant them to a bigger pot and ['top' the plants](https://www.leafly.com/news/growing/how-to-top-cannabis-plants-for-better-yields). Topping the plants right after transplanting can promote root growth, but since these plants are already dropping leaves, you may want to wait a day or too to minimize stress in the transplant.
+**Our suggested action**: transplant them to a bigger pot and ['top' the plants](https://www.leafly.com/news/growing/how-to-top-cannabis-plants-for-better-yields). Topping the plants right after transplanting can promote root growth, but since these plants are already dropping leaves, you may want to wait a day or two to minimize stress in the transplant.
 
 *The size of the new container should ideally be as wide as you want the plants to be tall.* That is, if you want them to be 2 feet tall, give them two feet wide containers&mdash;better yet, plant them all two feet apart (in this example) in a single bed of soil (referred to more generally as a 'raised bed').
 
