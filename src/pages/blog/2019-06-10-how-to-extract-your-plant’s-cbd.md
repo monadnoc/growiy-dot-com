@@ -13,11 +13,9 @@ tags:
   - harvesting
   - cbd
 ---
-The use of Cannabidiol (CBD) has been skyrocketing in popularity as it becomes more mainstream. With a bit of effort, you can extract CBD from your home-grown plants.
+The use of Cannabidiol (CBD) has been skyrocketing in popularity as it becomes more mainstream. With a bit of effort, you can extract CBD from your home-grown plants.
 
 Growiy consultant Sam Rifkin gives tips on making your own CBD at home:
-
-
 
 Every cannabis plant has a different level of CBD. If you have a CBD-producing strain, you won’t be able to isolate CBD from THC as most strains have THC in them. It would be difficult to separate CBD w/o lab equipment.
 
@@ -29,8 +27,6 @@ If you’re growing at home and fine with mixing THC and CBD, there’s a lot of
 
 Once you have alcohol with these constituents, you can ingest the alcohol -- which many people don’t want to do. Alternatively, you can use Rick Simpson oil in a relatively simple process. Put the bud in a jar with alcohol and let it sit. Over time, the alcohol will evaporate. You’ll be left with hash, the finished extraction, which will contain the constituents the alcohol took out of the cannabis plant. 
 
-Alcohol strips out impurities in plant, which might not be great to smoke. So the end product may be used topically as skin cream, or you can ingest it or put it in butter or edibles. 
-
-
+Alcohol strips out impurities in the plant, which might not be great to smoke. So the end product may be used topically as skin cream, or you can ingest it or put it in butter or edibles. 
 
 _For an in-depth consultation on extracting CBD,_ [_send a message_](https://www.growiy.com/free-help-growing-cannabis/) _to our experts._
