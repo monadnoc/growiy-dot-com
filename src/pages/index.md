@@ -7,7 +7,7 @@ subheading: Supporting DIY cannabis growers
 mainpitch:
   title: What is Growiy?
   description: >
-    Growiy stands for 'Grow It Yourself'—it's a tech solution for growers of reacreational cannabis.
+    Growiy stands for 'Grow It Yourself'—it's a tech solution for growers of recreational cannabis.
 description: >-
   Growing cannabis for personal use should be fun and easy. With Growiy, you can apply a can-do DIY attitude to grow cannabis consistently and cost-effectively. Grow It Yourself!
 intro:
